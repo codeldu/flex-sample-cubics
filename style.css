@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid green;
+    margin: 20px auto;
+    background-color: rgb(164, 230, 164);
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+
+.top, .bottom{
+    border: 4px solid blue;
+    background-color: rgb(88, 158, 229);
+    height: 23%;
+    
+}
+
+.center{
+   display: flex;
+    height: 47%;
+    justify-content: space-between;
+}
+
+.center > div {
+    width: 49.5%;
+}
+
+.left{
+    background-color: rgba(238, 86, 86, 0.919);
+    border: 4px solid  rgba(133, 15, 15, 0.534);
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right > div {
+    height: 47%;
+    background-color: rgba(238, 86, 86, 0.919);
+    border: 4px solid  rgba(133, 15, 15, 0.534);
+}
+
+.top {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.top > div {
+    border:4px solid rgb(226, 103, 22);
+    background-color: brown;
+    width: 32%;
+    
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.bottom > div {
+    border: 4px solid magenta;
+    background-color: rgb(228, 130, 228);
+}
+
+.center-top{
+    display: flex;
+    padding: 10px;
+
+}
+.center-top > div {
+    width: 50%;
+    border: 4px solid rgb(255, 106, 0);
+    background-color: rgb(228, 223, 130);
+}
